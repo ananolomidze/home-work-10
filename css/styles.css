@@ -45,6 +45,9 @@ img{
     font-size: 40px;
 }
 
+
+
+
 .left-side{
     padding-left: 70px;
    
@@ -54,7 +57,12 @@ img{
  .left-side h3{
     color: #636060;
     width: 286px;
-height: 63px;
+    height: 63px;
+    margin-top: 40px;
+    font-family: Helvetica;
+font-size: 17px;
+text-align: left;
+
 }
  
 
@@ -62,6 +70,11 @@ height: 63px;
     width: 214px;
     height: 32px;
    color: #010101;
+   margin-top: -28px;
+   font-family: Helvetica;
+font-size: 28px;
+text-align: left;
+
 }
 
 
@@ -69,15 +82,24 @@ height: 63px;
     width: 286px;
     height: 63px;
     color: #636060;
+    font-family: Helvetica;
+font-size: 20px;
+text-align: left;
+margin-top: 10px;
     }
   
  
-.conteiner1{
+.flex-conteiner{
     display: flex;
     flex-wrap: wrap;
+    align-content: end;
+    flex-direction: row;
+    width: 100%;
+padding-left: 340px;
+margin-top: -150px;
 }
 
-.conteiner1 div{
+.flex-conteiner  div{
     margin: 10px;
     padding: 20px;
 }
@@ -93,6 +115,14 @@ height: 63px;
     color: #636060;
     width: 286px;
 height: 63px;
+font-family: Helvetica;
+font-size: 18px;
+font-weight: 400;
+line-height: 20.7px;
+text-align: left;
+margin-left: 25px;
+
+
 }
  
 
@@ -100,4 +130,10 @@ height: 63px;
     width: 214px;
     height: 32px;
    color: #010101;
+   font-family: Helvetica;
+font-size: 17px;
+text-align: left;
+margin-left: 20px;
+
 }
+
