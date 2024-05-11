@@ -1,21 +1,26 @@
+
+
 header{
-    display: flex;
-    width: 100%;
+    padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
 }
 nav{
-    padding-left: 780px;
+    width: 700px;
+  display: flex;
+  align-items: center;
 }
-li{
-    display: inline-block;
-    margin-left: 25px;
+.header-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     color: #636060;
-   font-size: 20px;
-   margin-top: 20px ;
 }
 
-img{
-    padding-left: 20px;
-}
+
+
 
 .border{
     position: relative;
