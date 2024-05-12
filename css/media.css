@@ -1,11 +1,45 @@
-@media(max-width:1024px){
+@media(min-width:1024px) { 
+     header{
+        
+      display: flex;
+      justify-content: space-between;
+    }
+    nav{
+        width: 700px;
+      display: flex;
+      align-items: center;
+    }
+    .header-nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        color: #636060;
+    }
+    
+    
+    
+    
+    .border{
+        position: relative;
+      text-align: center;
+      margin-top: 40px;
+    
+    }
+    
+    .borderpic img{
+        width: 100%;
+    }
+    
     .borderpic h1{
         color: white;
          position: absolute;
          top: 35%;
          left: 50%;
          transform: translate(-50%, -50%);
-         font-size: 50px;
+         font-size: 79px;
+         
      }
      .borderpic p{
          position: absolute;
@@ -13,6 +47,464 @@
          left: 50%;
          transform: translate(-50%, -50%);
          color: white;
-         font-size: 20px;
+         font-size: 39px;
      }
+    
+    
+    .left-side{
+        padding-left: 70px;
+       
+       
+    }
+    
+     .left-side h3{
+        color: #636060;
+        width: 286px;
+        height: 63px;
+        margin-top: 40px;
+        font-family: Helvetica;
+    font-size: 17px;
+    text-align: left;
+    
+    }
+     
+    
+      .left-side h1{
+        width: 214px;
+        height: 32px;
+       color: #010101;
+       margin-top: -28px;
+       font-family: Helvetica;
+    font-size: 28px;
+    text-align: left;
+    
+    }
+    
+    
+       .left-side h4 {
+        width: 286px;
+        height: 63px;
+        color: #636060;
+        font-family: Helvetica;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+        }
+      
+     
+    .flex-conteiner{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: end;
+        flex-direction: row;
+        width: 100%;
+    padding-left: 340px;
+    margin-top: -150px;
+    }
+    
+    .flex-conteiner  div{
+        margin: 10px;
+        padding: 20px;
+    }
+    
+    .pic{
+        
+        width: 286px;
+        height: 195px;
+      display: inline-block;
+        
+    }
+    .text1{
+        color: #636060;
+        width: 286px;
+    height: 63px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.7px;
+    text-align: left;
+    margin-left: 25px;
+    
+    
+    }
+     
+    
+      .text{
+        width: 214px;
+        height: 32px;
+       color: #010101;
+       font-family: Helvetica;
+    font-size: 17px;
+    text-align: left;
+    margin-left: 20px;
+    
+    }
+    
+    
+}
+
+
+@media(max-width:1024px){
+    header{
+        padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+    }
+    nav{
+        width: 500px;
+      display: flex;
+      align-items: center;
+    }
+    .header-nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        color: #636060;
+    }
+    
+    
+    
+    
+    
+    .borderpic h1{
+        color: white;
+         position: absolute;
+         top: 35%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         font-size: 50px;
+         
+     }
+     .borderpic p{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         color: white;
+         font-size: 25px;
+     }
+     .left-side{
+        padding-left: 30px;
+       
+       
+    }
+    
+     .left-side h3{
+        color: #636060;
+        width: 286px;
+        height: 63px;
+        margin-top: 40px;
+        font-family: Helvetica;
+    font-size: 17px;
+    text-align: left;
+    
+    }
+     
+    
+      .left-side h1{
+        width: 214px;
+        height: 32px;
+       color: #010101;
+       margin-top: -28px;
+       font-family: Helvetica;
+    font-size: 28px;
+    text-align: left;
+    
+    }
+    
+    
+       .left-side h4 {
+        width: 286px;
+        height: 63px;
+        color: #636060;
+        font-family: Helvetica;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+        }
+      
+     
+    .flex-conteiner{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+   
+    }
+    
+    .flex-conteiner  div{
+        margin: 10px;
+        padding: 20px;
+    }
+    
+    .pic{
+        
+        width: 200px;
+        height: 100px;
+      display: inline-block;
+        
+    }
+    .text1{
+        color: #636060;
+        width: 200px;
+    height: 30px;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.7px;
+    text-align: left;
+   
+    
+    
+    }
+     
+    
+      .text{
+     
+       color: #010101;
+       font-family: Helvetica;
+    font-size: 15px;
+    text-align: left;
+   
+    
+    }
+    
+    
+}
+
+@media(max-width:768px){
+    header{
+      
+      display: flex;
+      justify-content: space-between;
+    }
+    nav{
+        width: 150px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      
+    }
+    .header-nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        color: #636060;
+    }
+    
+    .borderpic h1{
+        color: white;
+         position: absolute;
+         top: 35%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         font-size: 35px;
+         
+     }
+     .borderpic p{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         color: white;
+         font-size: 15px;
+     }
+     .left-side{
+        padding-left: 30px;
+       
+       
+    }
+    
+     .left-side h3{
+        color: #636060;
+        width: 286px;
+        height: 63px;
+        margin-top: 40px;
+        font-family: Helvetica;
+    font-size: 17px;
+    text-align: left;
+    
+    }
+     
+    
+      .left-side h1{
+        width: 214px;
+        height: 32px;
+       color: #010101;
+       margin-top: -28px;
+       font-family: Helvetica;
+    font-size: 28px;
+    text-align: left;
+    
+    }
+    
+    
+       .left-side h4 {
+        width: 286px;
+        height: 63px;
+        color: #636060;
+        font-family: Helvetica;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+        }
+      
+     
+    .flex-conteiner{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+  
+    }
+    
+    .flex-conteiner  div{
+        margin: 10px;
+        padding: 20px;
+    }
+    
+    .pic{
+        
+        width: 200px;
+        
+      display: inline-block;
+        
+    }
+    .text1{
+        color: #636060;
+        width: 200px;
+    height: 63px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.7px;
+    text-align: left;
+    margin-left: 25px;
+    
+    
+    }
+     
+    
+      .text{
+       
+       
+       color: #010101;
+       font-family: Helvetica;
+    
+    text-align: left;
+    margin-left: 20px;
+    
+    }
+    
+}
+
+
+@media(max-width:485px){
+    .borderpic h1{
+        color: white;
+         position: absolute;
+         top: 35%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         font-size: 25px;
+         
+     }
+     .borderpic p{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         color: white;
+         font-size: 9px;
+     }
+     .left-side{
+        padding-left: 30px;
+       
+       
+    }
+    
+     .left-side h3{
+        color: #636060;
+        width: 286px;
+        height: 63px;
+        margin-top: 40px;
+        font-family: Helvetica;
+    font-size: 14px;
+    text-align: left;
+    
+    }
+     
+    
+      .left-side h1{
+        width: 214px;
+        height: 32px;
+       color: #010101;
+       margin-top: -28px;
+       font-family: Helvetica;
+    font-size: 18px;
+    text-align: left;
+    
+    }
+    
+    
+       .left-side h4 {
+        width: 286px;
+        height: 63px;
+        color: #636060;
+        font-family: Helvetica;
+    font-size: 17px;
+    text-align: left;
+    margin-top: 10px;
+        }
+      
+     
+    .flex-conteiner{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        text-align: center;
+   
+    }
+    
+    .flex-conteiner  div{
+        margin: 10px;
+        padding: 20px;
+    }
+    
+    .pic{
+        
+        width: 150px;
+        height: 100px;
+      display: inline-block;
+        
+    }
+    .text1{
+        color: #636060;
+        width: 200px;
+    height: 30px;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.7px;
+    text-align: left;
+   margin-left: 19px;
+    
+    
+    }
+     
+    
+      .text{
+     
+       color: #010101;
+       font-family: Helvetica;
+    font-size: 12px;
+   
+}
+
 }
